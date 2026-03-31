@@ -19,7 +19,9 @@ function App() {
 
   const [activeTab , setActiveTab] = useState('model')
 
-  console.log(activeTab);
+  const [carts , activeCarts]= useState([])
+
+ 
 
 
 
@@ -44,23 +46,23 @@ Choose from our curated collection of premium digital products designed <br/>to 
         ${
           activeTab === "model"
             ? "text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]"
-            : "bg-white text-black"
+            : "bg-white text-black border  border-gray-300 "
         }`} aria-label="Products"  defaultChecked onClick={()=>setActiveTab('model')} />
   <input  type="radio" name="my_tabs_1" className={`tab rounded-full text-center transition-all duration-300 
         w-full sm:w-40 py-2
         ${
           activeTab === "cart"
             ? "text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]"
-            : "bg-white text-black"
+            : "bg-white text-black border  border-gray-300"
         }`} aria-label="Cart (0)" onClick={()=>setActiveTab('cart')} />
   
 </div>
 
-{ activeTab=== 'model' && <Digitools digiToolPromise={digiToolPromise}></Digitools>}
+{ activeTab=== 'model' && <Digitools digiToolPromise={digiToolPromise} carts={carts} activeCarts={activeCarts}></Digitools>}
 
 
      
-   {activeTab=== 'cart' && <Cart></Cart>}  
+   {activeTab=== 'cart' && <Cart carts={carts}></Cart>}  
      <Steps></Steps>
      <TransparentPricing></TransparentPricing>
      <Footer></Footer>

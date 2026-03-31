@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const DigitoolCard = ({digitool}) => {
+const DigitoolCard = ({digitool,carts , activeCarts}) => {
     const [isBuyNow, setisBuyNow]=useState(false);
            const tagColors = {
       "best seller": "bg-[#FEF3C6] text-[#F59E0B]", 
@@ -11,6 +11,7 @@ const DigitoolCard = ({digitool}) => {
 
     const buyNowButton=()=>{
         setisBuyNow(true);
+        activeCarts([...carts,digitool])
     }
     return (
         <div>
