@@ -54,7 +54,7 @@ Choose from our curated collection of premium digital products designed <br/>to 
           activeTab === "cart"
             ? "text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]"
             : "bg-white text-black border  border-gray-300"
-        }`} aria-label="Cart (0)" onClick={()=>setActiveTab('cart')} />
+        }`} aria-label={`Cart (${carts.length})`} onClick={()=>setActiveTab('cart')} />
   
 </div>
 
@@ -62,7 +62,7 @@ Choose from our curated collection of premium digital products designed <br/>to 
 
 
      
-   {activeTab=== 'cart' && <Cart carts={carts}></Cart>}  
+   {activeTab=== 'cart' && <Cart carts={carts} activeCarts={activeCarts}></Cart>}  
      <Steps></Steps>
      <TransparentPricing></TransparentPricing>
      <Footer></Footer>
