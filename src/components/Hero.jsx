@@ -49,7 +49,7 @@ const Hero = () => {
 
         {/* Right Image */}
         <div className="flex-1 flex justify-end relative ">
-          <div className="absolute w-[350px] h-[350px] bg-purple-200 rounded-full blur-3xl opacity-40 "></div>
+          <div className="absolute w[350px] h[350px] bg-purple-200 rounded-full blur-3xl opacity-40 "></div>
 
           <img
             src={heroImg}

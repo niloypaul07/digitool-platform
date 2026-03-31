@@ -2,7 +2,7 @@ import React from 'react';
 
 const Stats = () => {
     return (
-        <div className='bg-gradient-to-b from-[rgba(79,57,246,1)] to-[rgba(149,20,250,1)] py-10'>
+        <div className='bg-linear-to-b from-[rgba(79,57,246,1)] to-[rgba(149,20,250,1)] py-10'>
     
     <div className='flex flex-col md:flex-row items-center justify-center md:justify-around text-center gap-6'>
         

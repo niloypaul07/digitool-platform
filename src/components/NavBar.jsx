@@ -3,13 +3,13 @@ import { CiShoppingCart } from "react-icons/ci";
 
 const NavBar = () => {
   return (
-    <div className="flex  justify-between items-center px-3 md: flex justify-between px-8 py-4 shadow bg-white  rounded-lg">
+    <div className="flex  justify-between items-center px-3 md:flex md:justify-between md:px-8 py-4 shadow bg-white  rounded-lg">
       {/* Logo */}
 
       
 
       <div>
-        <h1 className="bg-linear-to-b from-[rgba(79,57,246,1)] to-[rgba(149,20,250,1)] text-2xl font-bold text-primary cursor-pointer text-transparent bg-clip-text">
+        <h1 className="bg-linear-to-b from-[rgba(79,57,246,1)] to-[rgba(149,20,250,1)] text-2xl font-bold  cursor-pointer text-transparent bg-clip-text">
           DigiTools
         </h1>
       </div>
