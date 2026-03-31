@@ -3,7 +3,7 @@ import React from 'react';
 const TransparentPricing = () => {
     return (
         <div>
-  {/* Heading */}
+  
   <h1 className="text-center mt-14 md:mt-20 text-[#101727] text-3xl md:text-[48px] font-bold px-4">
     Simple, Transparent Pricing
   </h1>
@@ -67,7 +67,7 @@ const TransparentPricing = () => {
 
 
    
-    <div className="card bg-base-100 shadow-sm relative h-full sm:col-span-2 lg:col-span-1">
+    <div className="card bg-base-100 shadow-sm relative h-full sm:col-span-1 lg:col-span-1">
       
       <span className="absolute -top-3 md:-top-4 left-1/2 -translate-x-1/2 bg-[#FEF3C6] text-[#BB4D00] text-[10px] md:text-xs px-3 md:px-4 py-1 rounded-full shadow-md">
         Most Popular

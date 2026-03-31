@@ -1,16 +1,117 @@
-# React + Vite
+# 🎯 DigiTools – Digital Tools Buying Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+DigiTools is a modern and responsive digital product marketplace where users can explore premium tools, view detailed features, and add products to a cart. The platform provides a smooth user experience with dynamic cart functionality, real-time updates, and clean UI design based on Figma.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is built as part of an assignment to demonstrate React fundamentals, state management, and responsive UI design using Tailwind CSS.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Live Features
 
-## Expanding the ESLint configuration
+* 🛒 Add to cart functionality with live product count update
+* ❌ Remove individual products from the cart
+* 💳 Proceed to checkout clears the cart instantly
+* 🔔 Real-time alerts using React Toastify
+* 🔄 Toggle between Products and Cart sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+* ⚛️ React.js
+* 🎨 Tailwind CSS
+* 🌼 DaisyUI
+* 📦 JavaScript (ES6+)
+* 🔔 React Toastify
+* 📄 JSON (for product data)
+
+---
+
+## ✨ Core Features
+
+### 1️⃣ Product Display System
+
+* Displays 6–10 digital tools in a responsive 3-column layout
+* Each product includes:
+
+  * Name, description, price, and billing period
+  * Feature list
+  * Tag (Popular, New, Best Seller)
+  * Icon and Buy Now button
+
+### 2️⃣ Smart Cart Functionality
+
+* Add products to cart with a single click
+* Cart updates instantly in Navbar
+* Remove specific items anytime
+* Shows total selected product count
+* “Proceed to Checkout” clears the cart completely
+
+### 3️⃣ Interactive UI & UX
+
+* Toggle between Product view and Cart view
+* Toast notifications for:
+
+  * Add to cart
+  * Remove item
+  * Checkout
+* Fully responsive design for mobile, tablet, and desktop
+
+---
+
+## 📱 Responsive Design
+
+* Mobile-first design approach
+* Optimized layout for all screen sizes
+* Clean and modern UI following Figma guidelines
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ │    ├── Navbar.jsx
+ │    ├── Banner.jsx
+ │    ├── Digitools.jsx
+ │    ├── DigitoolCard.jsx
+ │    ├── Cart.jsx
+ │    └── Footer.jsx
+ ├── data/
+ │    └── products.json
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+# Navigate to project folder
+cd digitools
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+```
+
+---
+
+## 📌 Future Improvements
+
+* 🔐 User authentication system
+* 💳 Payment gateway integration
+* ⭐ Product reviews and ratings
+* 🔎 Search & filter functionality
+
+---
+
+## 👨‍💻 Author
+
+Niloy Paul
+Frontend Developer | React Enthusiast
+
+

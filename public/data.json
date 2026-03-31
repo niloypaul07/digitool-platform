@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Perfect for individuals starting out.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["5 projects", "Basic support", "Community access"],
+    "icon": "/products/writing.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Advanced features for growing teams.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Unlimited projects", "Priority support", "Team collaboration"],
+    "icon": "/products/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Full suite for large organizations.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Dedicated account manager", "Custom integrations", "Advanced analytics"],
+    "icon": "/products/camera.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Pay once and get lifetime access.",
+    "price": 299,
+    "period": "one-time",
+    "tag": "special",
+    "tagType": "special",
+    "features": ["Lifetime updates", "Unlimited downloads", "Full support"],
+    "icon": "/products/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Ideal for small businesses and startups.",
+    "price": 99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["50 projects", "Email & chat support", "Team workspace"],
+    "icon": "/products/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "All-inclusive package for enterprises.",
+    "price": 499,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Unlimited everything", "24/7 dedicated support", "Custom reporting"],
+    "icon": "/products/social-media.png"
+  }
+]
