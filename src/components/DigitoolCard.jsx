@@ -15,7 +15,7 @@ const DigitoolCard = ({digitool,carts , activeCarts}) => {
 
         const isFound= carts.find(item=> item.id === digitool.id)
         if(isFound){
-          toast.error("Item already in cart");
+          toast.error("Item already in carts");
           return
         }
 
