@@ -6,6 +6,8 @@ DigiTools is a modern and responsive digital product marketplace where users can
 
 This project is built as part of an assignment to demonstrate React fundamentals, state management, and responsive UI design using Tailwind CSS.
 
+Live link: https://digitool-react.netlify.app/
+
 ---
 
 ## 🚀 Live Features
