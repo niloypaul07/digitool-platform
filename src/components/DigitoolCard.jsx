@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const DigitoolCard = ({digitool,carts , activeCarts}) => {
     const [isBuyNow, setisBuyNow]=useState(false);
@@ -11,7 +12,15 @@ const DigitoolCard = ({digitool,carts , activeCarts}) => {
 
     const buyNowButton=()=>{
         setisBuyNow(true);
+
+        const isFound= carts.find(item=> item.id === digitool.id)
+        if(isFound){
+          toast.error("Item already in cart");
+          return
+        }
+
         activeCarts([...carts,digitool])
+        toast.success("Item added into cart");
     }
     return (
         <div>

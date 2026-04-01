@@ -33,19 +33,25 @@ const NavBar = () => {
         </ul>
       </nav>
 
-      {/* Right Side */}
-      <div className="flex gap-3 md:gap-5 items-center">
-        <CiShoppingCart
- className="hidden md:text-xl cursor-pointer hover:text-primary transition" />
+      
+      <div className="flex items-center gap-2 sm:gap-3 md:gap-5">
+  
+  <CiShoppingCart 
+    className="text-lg sm:text-xl md:text-2xl cursor-pointer hover:text-primary transition" 
+  />
 
-        <h2 className="text-sm font-medium cursor-pointer hover:text-primary">
-          Login
-        </h2>
+  <h2 className="text-xs sm:text-sm md:text-base font-medium cursor-pointer hover:text-primary">
+    Login
+  </h2>
 
-        <button className="bg-linear-to-b from-[rgba(79,57,246,1)] to-[rgba(149,20,250,1)] btn btn-primary rounded-full px-5">
-          Get Started
-        </button>
-      </div>
+  <button className="bg-linear-to-b from-[rgba(79,57,246,1)] to-[rgba(149,20,250,1)] 
+    text-white text-xs sm:text-sm md:text-base 
+    px-3 sm:px-4 md:px-5 py-1.5 sm:py-2 
+    rounded-full whitespace-nowrap">
+    Get Started
+  </button>
+
+</div>
       </div>
       
     

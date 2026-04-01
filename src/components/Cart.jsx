@@ -1,14 +1,18 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const Cart = ({carts , activeCarts}) => {
     const totalPrice= carts.reduce((sum,item)=> sum + item.price , 0)
     const handlePayment= ()=>{
         activeCarts([])
+        toast.success("Payment Successfull");
+
     }
 
     const handleDelete= (item)=>{
         const filterdItem= carts.filter(c=> c.id !== item.id)
         activeCarts(filterdItem);
+        toast.success("Item deleted from cart");
     }
     return (
         <div className=' max-w-6xl mx-auto shadow rounded p-5 my-10'>
@@ -42,7 +46,7 @@ const Cart = ({carts , activeCarts}) => {
     </div>
 
     
-    <button onClick={()=>handleDelete(item)} className='text-red-500 font-semibold hover:underline'>
+    <button onClick={()=>handleDelete(item)} className='text-red-500 font-semibold hover:underline cursor-pointer'>
       Remove
     </button>
 
